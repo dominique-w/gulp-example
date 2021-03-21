@@ -1,0 +1,35 @@
+{
+  "name": "gulp-example",
+  "version": "1.0.0",
+  "description": "Voorbeeldproject bij het vak Front-End Workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominique-w/gulp-example.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "boilerplate"
+  ],
+  "author": "Dominique Wiels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominique-w/gulp-example/issues"
+  },
+  "homepage": "https://github.com/dominique-w/gulp-example#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "browser-sync": "^2.26.14",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0"
+  }
+}
