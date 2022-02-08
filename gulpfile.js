@@ -1,5 +1,6 @@
-const { src, series, parallel, dest, watch } = require("gulp");
 // op de eerste regel zetten we steeds de gulp methods
+const { src, series, parallel, dest, watch } = require("gulp");
+
 // plugins variabelen
 const sass = require("gulp-dart-sass");
 const postcss = require("gulp-postcss");
@@ -10,7 +11,7 @@ const htmlmin = require("gulp-htmlmin");
 const imagemin = require("gulp-imagemin");
 const browsersync = require("browser-sync").create();
 
-// zet sourcemaps aan, compileer scss, autoprefix, minify, rename en schrijf naar dist/css
+// compileer scss, zet sourcemaps aan, autoprefix, minify, rename en schrijf naar dist/css
 function compile() {
   return src("src/scss/main.scss", { sourcemaps: true })
     .pipe(sass())
